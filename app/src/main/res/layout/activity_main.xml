@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:text="@string/appbar_with_options_menu"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/btnContextualMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:text="@string/contextual_menu"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg"/>
+
+    <Button
+        android:id="@+id/btnPopupMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:text="@string/popup_menu"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg"/>
+
+    <Button
+        android:id="@+id/btnDialogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:text="@string/dialogs"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg"/>
+
+    <Button
+        android:id="@+id/btnPickers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:text="@string/pickers"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
