@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnPopup = findViewById(R.id.btnPopupMenu);
         Button btnDialogs = findViewById(R.id.btnDialogs);
         Button btnPickers = findViewById(R.id.btnPickers);
-
+    //comment only
 
 
         btnAppBar.setOnClickListener(new View.OnClickListener() {
