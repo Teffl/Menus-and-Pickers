@@ -3,6 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Menu-Pickers" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/Menus-and-Pickers" vcs="Git" />
+=======
+>>>>>>> d64f277f716058674b6f67a2921af5988e063c8e
   </component>
 </project>
