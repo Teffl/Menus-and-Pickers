@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <Button
+            android:id="@+id/btn_pick_time"
+            android:layout_width="200dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="200dp"
+            android:text="@string/Pick_a_Time"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_selected_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:fontFamily="@font/lobster"
+            android:text="@string/sTime"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_pick_date"
+            android:layout_width="200dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/Pick_a_Date"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_selected_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:text="@string/sDate"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lobster"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
